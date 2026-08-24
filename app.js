@@ -237,7 +237,7 @@ function renderNavBar() {
     '<nav class="navbar">' +
       '<div class="container nav-inner">' +
         '<div class="brand" data-nav="home">' +
-          '<img src="1.jpg.jpg" alt="Joy Makers Holidays Logo" class="brand-logo" onerror="this.onerror=null;this.src=window.LOGO_FALLBACK;">' +
+          '<img src="1.jpg.jpeg" alt="Joy Makers Holidays Logo" class="brand-logo" onerror="this.onerror=null;this.src=window.LOGO_FALLBACK;">' +
           '<div class="brand-text">' +
             '<span class="brand-name">Joy Makers</span>' +
             '<span class="brand-sub">Holidays</span>' +
