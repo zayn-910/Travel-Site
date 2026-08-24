@@ -245,7 +245,6 @@ function renderNavBar() {
         '</div>' +
         '<div class="nav-links">' +
           links +
-          '<button class="admin-toggle" data-action="toggle-admin">[Admin]</button>' +
           (state.isAdmin ? '<button class="btn btn-blue btn-sm" data-nav="admin">Dashboard</button>' : '') +
         '</div>' +
         '<div class="mobile-menu-btn-wrap">' +
@@ -256,7 +255,6 @@ function renderNavBar() {
       '</div>' +
       (state.isMobileMenuOpen
         ? '<div class="mobile-menu">' + mobileLinks +
-          '<button class="mobile-link admin-toggle-mobile" data-action="toggle-admin">[Admin]</button>' +
           (state.isAdmin ? '<button class="mobile-link admin" data-nav="admin">Admin Dashboard</button>' : '') +
           '</div>'
         : '') +
