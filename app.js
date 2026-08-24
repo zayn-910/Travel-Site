@@ -814,7 +814,7 @@ function renderFooter() {
         '<div class="footer-grid">' +
           '<div>' +
             '<div class="footer-brand">' +
-              '<img src="1.jpg.jpg" alt="Joy Makers Holidays Logo" onerror="this.onerror=null;this.src=window.LOGO_FALLBACK;" />' +
+              '<img src="1.jpg.jpeg" alt="Joy Makers Holidays Logo" onerror="this.onerror=null;this.src=window.LOGO_FALLBACK;" />' +
               '<div class="flex flex-col">' +
                 '<span class="footer-brand-name">Joy Makers</span>' +
                 '<span class="footer-brand-sub">Holidays</span>' +
