@@ -187,8 +187,13 @@ main { flex-grow: 1; }
 
 .brand { display: flex; align-items: center; cursor: pointer; }
 .brand-logo {
-  height: 3rem; width: auto; margin-right: .75rem;
-  object-fit: cover; border-radius: .375rem; box-shadow: 0 1px 2px rgba(0,0,0,.05);
+  height: 3rem; 
+  width: 3rem; /* Changed from auto to match the height */
+  margin-right: .75rem;
+  object-fit: cover; 
+  border-radius: 50%; /* Changed to 50% for a perfect circle */
+  box-shadow: 0 1px 2px rgba(0,0,0,.05);
+}
 }
 .brand-text { display: flex; flex-direction: column; }
 .brand-name { font-weight: 700; font-size: 1.25rem; line-height: 1.25; letter-spacing: -.025em; color: #111827; }
@@ -634,7 +639,8 @@ footer { background: #111827; color: #d1d5db; padding: 3rem 0; }
 @media (min-width: 768px) { .footer-grid { grid-template-columns: repeat(2, 1fr); } }
 @media (min-width: 1024px) { .footer-grid { grid-template-columns: repeat(4, 1fr); } }
 .footer-brand { display: flex; align-items: center; gap: .75rem; margin-bottom: 1rem; }
-.footer-brand img { height: 2.5rem; width: auto; object-fit: cover; border-radius: .375rem; box-shadow: 0 1px 2px rgba(0,0,0,.3); }
+.footer-brand img { height: 2.5rem; width: 2.5rem; object-fit: cover; border-radius: 50%; box-shadow: 0 1px 2px rgba(0,0,0,.3); 
+}
 .footer-brand-name { font-weight: 700; color: #fff; line-height: 1.25; }
 .footer-brand-sub { font-size: .625rem; color: #60a5fa; font-weight: 600; letter-spacing: .1em; text-transform: uppercase; }
 .footer-about { font-size: .875rem; color: #9ca3af; }
