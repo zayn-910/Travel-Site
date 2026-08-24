@@ -206,7 +206,7 @@ export default function App() {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex justify-between h-20">
           <div className="flex items-center cursor-pointer" onClick={() => navigate('home')}>
-            <img src="1.jpg.jpg" alt="Joy Makers Holidays Logo" className="h-12 w-auto mr-3 object-cover rounded-md shadow-sm" />
+            <img src="1.jpg.jpeg" alt="Joy Makers Holidays Logo" className="h-12 w-auto mr-3 object-cover rounded-md shadow-sm" />
             <div className="flex flex-col">
               <span className="font-bold text-xl leading-tight tracking-tight text-gray-900">Joy Makers</span>
               <span className="text-xs text-blue-600 font-semibold tracking-widest uppercase">Holidays</span>
